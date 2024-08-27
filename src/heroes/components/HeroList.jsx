@@ -6,7 +6,7 @@ export const HeroList = ({ publisher }) => {
   return (
     <ul>
       {heroes.map((hero) => (
-        <li key={hero.id}>{hero.superhero}</li>
+        <li key={ hero.id }>{ hero.superhero }</li>
       ))}
     </ul>
   );
